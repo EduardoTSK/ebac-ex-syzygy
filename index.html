@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oswald&display=swap" rel="stylesheet">
+    <title>Exercício 13</title>
+</head>
+<body>
+    <div>
+        <header id="header">
+            <div class="navbar navbar-expand-lg fixed-top bg-dark">
+                <div class="container">
+                    <h1>Syzygy Store</h1>
+                    <button data-bs-target="#menu" data-bs-toggle="collapse" class="navbar-toggler" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a href="#header" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#dest" class="nav-link">Destaques</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#promo" class="nav-link">Promoções</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="carousel" data-bs-ride="carousel" class="carousel carousel-fade slide">
+            <div id="carouselIndi" class="carousel-slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselIndi" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselIndi" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselIndi" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="images/loja-carousel.jpg" alt="Foto loja de vinil">
+                    <div class="carousel-caption">
+                        <h2>Visite a Syzygy Store</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://almanaquedacultura.com.br/wp-content/uploads/2017/07/musica-dia-mundial-do-rock-2017.jpg" alt="Foto última ceia lendas do rock">
+                    <div class="carousel-caption">
+                        <h2>Conheça o panteão das lendas do rock</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="images/playlist-carousel.png" alt="Foto playlist syzygy spotify">
+                    <div class="carousel-caption">
+                        <h2>Escute nossa playlist no spotify</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+        <section id="dest">
+            <div class="container">
+                <div class="row">
+                    <h2>Destaques</h2>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                The Beatles
+                            </header>
+                            <img src="images/albm-abroad.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-tittle">Abbey Road</h4>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-primary">Tenho interesse</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                Artic Monkeys
+                            </header>
+                            <img src="images/albm-am.jpeg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-tittle">AM</h4>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-primary">Tenho interesse</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                Queen
+                            </header>
+                            <img src="images/albm-notw.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-tittle">News of The World</h4>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-primary">Tenho interesse</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promo">
+            <div class="container">
+                <div class="row">
+                    <h2>Promoções</h2>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                Nirvana
+                            </header>
+                            <img src="images/albm-nevermind.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-tittle">Nevermind</h4>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-primary">Tenho interesse</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                Pink Floyd
+                            </header>
+                            <img src="images/albm-dsom.png" alt="">
+                            <div class="card-body">
+                                <h4 class="card-tittle">The Dark Side of The Moon</h4>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-primary">Tenho interesse</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                Radiohead
+                            </header>
+                            <img src="images/albm-okc.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-tittle">Ok Computer</h4>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-primary">Tenho interesse</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-dark text-center text-white">
+            <div class="container p-4 pb-0">
+                <section class="mb-4">
+                    <a href="#" class="btn btn-floating m-1" role="button">
+                        <img src="icones/youtube.png">
+                    </a>
+                    <a href="#" class="btn btn-floating m-1" role="button">
+                        <img src="icones/instagram.png">
+                    </a>
+                    <a href="#" class="btn btn-floating m-1" role="button">
+                        <img src="icones/facebook.png">
+                    </a>
+                </section>
+            </div>
+            <div class="text-center p-3">
+                Syzygy Store &copy 2023 Copyright
+            </div>
+        </footer>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

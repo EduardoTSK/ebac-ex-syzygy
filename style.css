@@ -1,0 +1,101 @@
+.navbar-toggler {
+    background-color: rgb(0, 145, 0);
+}
+
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(0, 255, 0);
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgb(0, 145, 0);
+    color: #fff;
+}
+
+header {
+    top: 0;
+    left: 0;
+    background-color: #000;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    color: rgb(0, 255, 0);
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #000;
+}
+
+.carousel-item img {
+    margin-top: 74px;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Oswald', sans-serif;
+    border-radius: 16px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.row h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+#dest {
+    padding-top: 12px;
+}
+
+.card {
+    font-family: 'Oswald', sans-serif;
+    margin: 12px 0;
+}
+
+.card img {
+    height: 348px;
+}
+
+.card-header {
+    font-size: large;
+}
+
+.carousel-control-prev-icon {
+    color: rgb(0, 255, 0);
+}
+
+.btn-primary {
+    background-color: rgb(0, 180, 0);
+    border-color: rgb(0, 180, 0);
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 221, 0);
+    border-color: rgb(0, 221, 0);
+}
+
+footer {
+    margin-top: 12px;
+}
+
+.btn-floating img {
+    height: 36px;
+}
+
+.p-3 {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Oswald', sans-serif;
+}
